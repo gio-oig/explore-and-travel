@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="./assets/logo.png" alt="logo" />
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#" id="active">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">partner</a></li>
+          </ul>
+          <div class="auth">
+            <button class="login">Login</button>
+            <button class="register">Register</button>
+          </div>
+        </div>
+        <div class="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="hero--title">Explore and Travel</h1>
+        <div class="location-finder">
+          <p>Holiday finder</p>
+          <div class="finder">
+            <select>
+              <option value="">location</option>
+            </select>
+            <select>
+              <option value="">Activity</option>
+            </select>
+            <select>
+              <option value="">Grade</option>
+            </select>
+            <select>
+              <option value="">Date</option>
+            </select>
+          </div>
+          <button class="explore">Explore</button>
+        </div>
+      </div>
+      <div class="hero__image">
+        <img src="./assets/hero.png" alt="hero image" />
+      </div>
+    </section>
+    <section class="explore-section">
+      <div class="ecplore__image">
+        <img src="./assets/explore.png" alt="" />
+      </div>
+      <div class="explore__content">
+        <h1>A new way to explore the world</h1>
+        <p>
+          For decades travellers have reached for Lonely Planet books when
+          looking to plan and execute their perfect trip, but now, they can also
+          let Lonely Planet Experiences lead the way
+        </p>
+        <button class="learn-more">Learn more</button>
+      </div>
+    </section>
+    <section id="destinations">
+      <div class="destination__header">
+        <h1>Featured destinations</h1>
+        <div class="destinations_group">
+          <a href="#">View all</a>
+          <svg
+            width="10"
+            height="6"
+            viewBox="0 0 10 6"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            id="viewAll"
+          >
+            <path
+              d="M1.44196 0.272727L4.15625 3.18182C4.49554 3.54545 5.00446 3.54545 5.34375 3.18182L8.05803 0.272727C8.39732 -0.0909091 8.90625 -0.0909091 9.24553 0.272727C9.58482 0.636364 9.58482 1.18182 9.24553 1.54545L5.34375 5.72727C5.00446 6.09091 4.49554 6.09091 4.15625 5.72727L0.254464 1.54545C-0.0848214 1.18182 -0.0848214 0.636364 0.254464 0.272727C0.59375 -0.0909091 1.10268 -0.0909091 1.44196 0.272727Z"
+              fill="#fb8f1d"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
